@@ -1,0 +1,15 @@
+@model IEnumerable<Customer>
+
+@{
+    ViewBag.Title = "Customers";
+}
+
+<div>
+	<ul>
+		@foreach(var item in Model)
+	
+		{
+			<li>Name: @item.Name Surname: @item.Surname</li>
+		}
+	</ul>
+</div>

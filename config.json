@@ -1,0 +1,10 @@
+{
+    "AppSettings": {
+        "SiteTitle": "MyCustomers"
+    },
+    "Data": {
+        "DefaultConnection": {
+            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-MyCustomers-f24a6593-77da-4852-8d5f-5147bf09f3e8;Trusted_Connection=True;MultipleActiveResultSets=true"
+        }
+    }
+}
